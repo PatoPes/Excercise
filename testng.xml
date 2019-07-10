@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Excersise Suite" verbose="1" >
+    <test name="Regression" preserve-order="false">
+        <classes>
+            <class name="pages.ExerciseTest"/>
+            <class name="pages.LoanPageTest"/>
+            <class name="pages.SignUpPageTest"/>
+            <class name="api.StatesService"/>
+        </classes>
+    </test>
+</suite>
